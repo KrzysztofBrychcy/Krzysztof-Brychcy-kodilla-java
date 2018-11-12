@@ -1,9 +1,9 @@
-package com.kodilla.testing.forum.collection;
+package com.kodilla.testing.collection;
+
 
 import com.kodilla.testing.collection.OddNumberExterminator;
 import org.junit.Assert;
 import org.junit.*;
-
 import java.util.ArrayList;
 
 public class CollectionTestSuite {
@@ -52,6 +52,5 @@ public class CollectionTestSuite {
         Assert.assertEquals(parzysta,result);
 
     }
-
 
 }

@@ -19,9 +19,9 @@ public class FirstChallenge {
         }finally {
 
             System.out.println("Remember not to divide by 0!");
+            return a / b;
 
         }
-        return a/b;
     }
 
     /*

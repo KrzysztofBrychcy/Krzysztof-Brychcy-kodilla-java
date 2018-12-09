@@ -39,7 +39,7 @@ public class ForumUser {
 
     @Override
     public String toString() {
-        return "ForumUser{" +
+        return "forum{" +
                 "userID=" + userID +
                 ", userName='" + userName + '\'' +
                 ", sex=" + sex +

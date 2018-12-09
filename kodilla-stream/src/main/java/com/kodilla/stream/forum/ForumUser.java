@@ -56,7 +56,7 @@ public class ForumUser {
 
     @Override
     public String toString() {
-        return "ForumUser{" +
+        return "forum{" +
                 "userName='" + userName + '\'' +
                 ", realName='" + realName + '\'' +
                 ", location='" + location + '\'' +

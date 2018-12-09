@@ -5,7 +5,7 @@ public class Application {
         OrderRequestRetriver orderRequestRetriver = new OrderRequestRetriver();
         OrderRequest orderRequest = orderRequestRetriver.retrieve();
 
-        OrderProccesor orderProccesor = new OrderProccesor(new SmsService(), new LampOrderService(), new LampOrderRepository());
+        OrderProccesor orderProccesor = new OrderProccesor(new SmsService(), new LampOrderService(), new LampOrderRepository(), new GlutenFreeShop());
         orderProccesor.process(orderRequest);
 
     }

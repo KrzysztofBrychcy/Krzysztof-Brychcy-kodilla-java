@@ -12,6 +12,7 @@ public class DataFlights {
         return true;
     }
 
+
     public List<Flight> getAllFlights() {
         return new ArrayList<>(allFlights);
     }

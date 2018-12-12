@@ -23,7 +23,6 @@ public class Applicatoin {
         FindRoute findRoute = new FindRoute();
         findRoute.putData(flights.getAllFlights());
 
-
         System.out.println(findRoute.findFrom("Poznań"));
         System.out.println(findRoute.findTo("Warszawa"));
         System.out.println(findRoute.findFromToBy("Gdańsk","Rzeszów"));

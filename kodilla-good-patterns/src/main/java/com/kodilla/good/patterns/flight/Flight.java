@@ -20,6 +20,7 @@ public class Flight {
         return arrivalAirport;
     }
 
+
     @Override
     public String toString() {
         return "Flight{" +

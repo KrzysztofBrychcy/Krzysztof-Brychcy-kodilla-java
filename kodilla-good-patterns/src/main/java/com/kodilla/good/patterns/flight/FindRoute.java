@@ -28,14 +28,14 @@ public class FindRoute {
         return new ArrayList<>(arrivalList);
     }
 
-    public List<FlightDto> findFromToBy(String departureAirport, String arrivalAirport) {
+    public List<FlightPair> findFromToBy(String departureAirport, String arrivalAirport) {
 
-        List<FlightDto> fromToByList = new ArrayList<>();
+        List<FlightPair> fromToByList = new ArrayList<>();
 
        for (Flight f : findFrom(departureAirport)) {
             for (Flight f2: findTo(arrivalAirport)) {
                 if(f.getArrivalAirport().equals(f2.getDepartureAirport())) {
-                    fromToByList.add(new FlightDto(f,f2));
+                    fromToByList.add(new FlightPair(f,f2));
                 }
             }
         }

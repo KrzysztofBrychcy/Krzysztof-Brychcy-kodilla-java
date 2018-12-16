@@ -28,5 +28,6 @@ public class BoardTestSuite {
         Assert.assertEquals("This is a task:[Zadanie2]", testInProgressList);
         Assert.assertEquals("This is a task:[Zadanie3]", testtoDoList);
 
+
     }
 }

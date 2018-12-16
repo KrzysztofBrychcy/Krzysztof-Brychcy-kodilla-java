@@ -20,6 +20,6 @@ public class CalculatorTestDisplay {
         calculator.sub(1,3);
         calculator.mul(1,3);
         calculator.div(1,3);
-        //Then
+        //Thengit
     }
 }

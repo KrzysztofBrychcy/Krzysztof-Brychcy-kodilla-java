@@ -11,5 +11,4 @@ public class LibrabryDBController {
     public void loadData() {
         System.out.println("Loading data from database");
     }
-
 }

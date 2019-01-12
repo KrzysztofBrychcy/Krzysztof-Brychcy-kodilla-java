@@ -52,11 +52,11 @@ public class DbManagerTestSuite {
         //Then
         int counter = 0;
         while(rs.next()) {
-            System.out.println(rs.getString("FirstName") + ", " + rs.getString("LastName") + ", " + rs.getInt("Posts_Number"));
+            System.out.println(rs.getString("FirstName") + ",\t " + rs.getString("LastName") + ",\t " + rs.getInt("Posts_Number"));
             counter ++;
         }
         rs.close();
         statement.close();
-        Assert.assertEquals(1,counter);
+        Assert.assertEquals(2,counter);
     }
 }

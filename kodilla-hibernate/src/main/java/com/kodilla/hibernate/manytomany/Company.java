@@ -13,11 +13,23 @@ import java.util.List;
 //        resultClass = Company.class
 //)
 
+/*
+
 @NamedQuery(
         name = "Company.retrieveFindCompany",
         query = "FROM Company " +
                 "WHERE SUBSTRING(name, 1, 3) = :COMPANY"
 )
+*/
+
+
+
+@NamedQuery(
+        name = "Company.retrieveFindComp",
+        query = "FROM Company" +
+                "WHERE name LIKE :ARG"
+)
+
 
 
 @Entity

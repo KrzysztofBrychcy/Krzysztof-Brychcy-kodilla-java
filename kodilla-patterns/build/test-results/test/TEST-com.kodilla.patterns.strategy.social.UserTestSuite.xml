@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-06T18:21:12" hostname="oem-Komputer" time="0.003">
+  <properties/>
+  <testcase name="testIndividualSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.002"/>
+  <testcase name="testDefaultSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.001"/>
+  <system-out><![CDATA[Krysek posts: [Facebook Publisher] add a photo
+Krysek now posts: [Snapchat Publisher] add a snap
+Krysek posts: [Facebook Publisher] add a photo
+Marco posts: [Twitter Publisher] add a twit
+Majka posts: [Snapchat Publisher] add a snap
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

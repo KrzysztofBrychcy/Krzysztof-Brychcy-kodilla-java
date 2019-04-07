@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring.library.LibraryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-07T12:27:42" hostname="oem-Komputer" time="0.815">
+  <properties/>
+  <testcase name="testSaveToDB" classname="com.kodilla.spring.library.LibraryTestSuite" time="0.23"/>
+  <testcase name="testLoadFromDB" classname="com.kodilla.spring.library.LibraryTestSuite" time="0.29"/>
+  <testcase name="testComtext" classname="com.kodilla.spring.library.LibraryTestSuite" time="0.293"/>
+  <system-out><![CDATA[2019-04-07 14:27:42.213  INFO 448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.spring.library.LibraryTestSuite], using SpringBootContextLoader
+2019-04-07 14:27:42.214  INFO 448 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.spring.library.LibraryTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-04-07 14:27:42.215  INFO 448 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.spring.library.LibraryTestSuite]: LibraryTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-04-07 14:27:42.230  INFO 448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.spring.SpringRunner for test class com.kodilla.spring.library.LibraryTestSuite
+2019-04-07 14:27:42.234  INFO 448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-04-07 14:27:42.235  INFO 448 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5cac2d42, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ae21998, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d83790a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e5cbf3e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23a7478a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@69c3b4bf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1ffedba4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@64a0322a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d22a223]
+2019-04-07 14:27:42.259  INFO 448 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@9309774: startup date [Sun Apr 07 14:27:42 CEST 2019]; root of context hierarchy
+2019-04-07 14:27:42.465  INFO 448 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Saving data to database
+2019-04-07 14:27:42.496  INFO 448 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f54cc43: startup date [Sun Apr 07 14:27:42 CEST 2019]; root of context hierarchy
+2019-04-07 14:27:42.754  INFO 448 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Loading data from database
+2019-04-07 14:27:42.784  INFO 448 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@640b6f2: startup date [Sun Apr 07 14:27:42 CEST 2019]; root of context hierarchy
+2019-04-07 14:27:43.045  INFO 448 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+===== Bean List: ==== >>
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalRequiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+calculator
+display
+forumUser
+libraryConfig
+boardConfig
+readerConfig
+circle
+shapeFactory
+triangle
+springRunner
+library
+librabryDBController
+getBoard
+ToDo
+InProgress
+Done
+getReader
+book1
+book2
+createSquare
+choosenShape
+org.springframework.boot.autoconfigure.AutoConfigurationPackages
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+propertySourcesPlaceholderConfigurer
+org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+mbeanExporter
+objectNamingStrategy
+mbeanServer
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+server-org.springframework.boot.autoconfigure.web.ServerProperties
+<< ==== Bean List =====
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

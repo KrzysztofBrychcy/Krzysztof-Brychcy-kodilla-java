@@ -19,12 +19,12 @@ public class FacadeCompanyEmployee {
 
 
     public List<Company> findCompany(String companyName) {
-        List<Company> companies = companyDao.retrieveFindComp(companyName);
+        List<Company> companies = companyDao.retrieveFindCompany(companyName);
         return companies;
     }
 
     public List<Employee> findEmployee(String employeeName) {
-        List<Employee> employees = employeeDao.retrieveLastNam(employeeName);
+        List<Employee> employees = employeeDao.retrieveLastName(employeeName);
         return employees;
     }
 

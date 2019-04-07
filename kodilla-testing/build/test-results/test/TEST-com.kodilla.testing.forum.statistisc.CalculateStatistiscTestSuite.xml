@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-01-06T18:21:29" hostname="oem-Komputer" time="0.534">
+  <properties/>
+  <testcase name="testCalculateAdvStatistic_HoundredUsers" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.529"/>
+  <testcase name="testCalculateAdvStatistic_PostsMoreThenComments" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.0"/>
+  <testcase name="testCalculateAdvStatistic_MyTest" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.0"/>
+  <testcase name="testCalculateAdvStatistic_ThausendPosts" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.001"/>
+  <testcase name="testCalculateAdvStatistic_ZeroComments" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.0"/>
+  <testcase name="testCalculateAdvStatistic_CommentsMoreThenPosts" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.0"/>
+  <testcase name="testCalculateAdvStatistic_ZeroPosts" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.001"/>
+  <testcase name="testCalculateAdvStatistic_ZeroUsers" classname="com.kodilla.testing.forum.statistisc.CalculateStatistiscTestSuite" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

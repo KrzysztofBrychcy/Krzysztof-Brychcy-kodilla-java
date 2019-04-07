@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-06T18:21:12" hostname="oem-Komputer" time="0.01">
+  <properties/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.01"/>
+  <system-out><![CDATA[Krzysztof Library
+[TytuĹ‚4 , Author4 , 1997-12-04
+, TytuĹ‚3 , Author3 , 1997-12-03
+, TytuĹ‚5 , Author5 , 1997-12-05
+, TytuĹ‚1 , Author1 , 1997-12-01
+]
+Margo Library
+[TytuĹ‚4 , Author4 , 1997-12-04
+, TytuĹ‚3 , Author3 , 1997-12-03
+, TytuĹ‚5 , Author5 , 1997-12-05
+, TytuĹ‚1 , Author1 , 1997-12-01
+]
+Whiskas Library
+[TytuĹ‚2 , Author2 , 1997-12-02
+, TytuĹ‚4 , Author4 , 1997-12-04
+, TytuĹ‚3 , Author3 , 1997-12-03
+, TytuĹ‚5 , Author5 , 1997-12-05
+, TytuĹ‚1 , Author1 , 1997-12-01
+]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

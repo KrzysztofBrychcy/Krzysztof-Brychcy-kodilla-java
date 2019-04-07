@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-01-06T18:21:29" hostname="oem-Komputer" time="0.008">
+  <properties/>
+  <testcase name="testGetShapeCircle" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.002"/>
+  <testcase name="testRemoveShapeNotExisting" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testGetShapeSquare" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <testcase name="testGetShapeTriangle" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <testcase name="testAddShapeCircle" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testRemoveShapeTriangle" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <testcase name="testRemoveShapeCircle" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testAddShapeSquare" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testRemoveShapeSquare" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <testcase name="testAddShapeTriangle" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testGetShapes" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <system-out><![CDATA[Begining of tests
+Prepering test #1
+Prepering test #2
+Prepering test #3
+Prepering test #4
+Prepering test #5
+Prepering test #6
+Prepering test #7
+Prepering test #8
+Prepering test #9
+Prepering test #10
+Prepering test #11
+All tests are done
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
